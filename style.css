@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: rgb(253, 248, 231);
+ text-align: center;
+}
+main {
+  margin-top: 0;
+  margin-bottom:0; 
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+header {
+  background-image: url("assets/pic.jpg");
+  background-size: cover;
+}
+
+/* STYLE TEXT */
+h1 {
+  color: rgb(163, 113, 192);
+  font-size: 3em;
+  font-style: initial;
+  font-family: amatic sc;
+  padding:1.5em;
+}
+
+h2 {
+  color: #ff9999;
+  font-family: fantasy;
+  font-style: italic;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h3 {
+  color: midnightblue;
+  background-color: lavender;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: cursive;
+  font-size: 30px;
+  text-shadow: 1px 1px purple;
+}
+
+h4 {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-family: fantasy;
+  padding: 1em;
+  background-color: lavenderblush;
+}
+
+.para {
+  border: 3px solid rgb(253, 196, 215);
+  margin-bottom: 1em;
+
+}
+
+li {
+  font-size: 24px;
+  font-family: cursive
+}
+
+/* STYLE IMAGES */
+
+#profile {
+  max-width: 50%;
+  border-radius: 90%;
+  border: 5px solid palevioletred;
+
+  /*centering the image*/
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.goldfish {
+  border-radius: 30%;
+  border: 3px dashed #ff9999;
+  width: 300px;
+  margin-right:5%;
+}
+
+.summary {
+  position:flex;
+  right: 0px;
+  width: 400 px;
+  margin-right: 5%;
+  margin-top: 5px;
+  margin-bottom: 5%;
+  border: 3px solid rgb(253, 196, 215);
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 5px;
+  margin-bottom: 5%;
+}
+
+#illustrationcolor {
+  border-radius: 30%;
+  border: 3px dashed #ff9999
+}
+
+#illustrationblack {
+  border-radius: 30%;
+  border: 3px dashed #ff9999
+
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color:blanchedalmond;
+  overflow: hidden;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: darkred ;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: darksalmon
+}
+
+/*Footer*/
+.footer {
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 0px;
+  padding-right:0px;
+  height: 1 em;
+}
+.footerName {
+  margin-bottom: 0px;
+
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 15%;
+}
