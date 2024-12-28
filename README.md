@@ -1,2 +1,4 @@
 # XYJgrace.github.io
-Personal website coded during GWC SIP 2021
+
+Personal Website Link: XYJgrace.github.io
+Established since GWC SIP 2021
