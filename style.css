@@ -170,8 +170,8 @@ li a:hover {
 
 .buttonBox {
   background-color: bisque;
-  border-radius: 10%;
-  padding: 5em;
+  border-radius: 2%;
+  padding: .5em;
 }
 
 #buttonPic {
@@ -181,7 +181,6 @@ li a:hover {
   margin-right: auto;
   
   max-width: 90%;
-  border-radius: 7%;
   border: 5px solid goldenrod;
 }
 
