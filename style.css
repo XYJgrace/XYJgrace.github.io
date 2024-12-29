@@ -104,8 +104,7 @@ li {
 }
 
 .goldfish:hover {
-  border-radius: 30%;
-  border: 6px solid palevioletred;
+  border: 6px solid darkred;
 }
 
 .summary {
