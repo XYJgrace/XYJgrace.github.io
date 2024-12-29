@@ -178,9 +178,6 @@ li a:hover {
   max-width: 50%;
   border-radius: 90%;
   border: 5px solid palevioletred;
-
-  /*centering the image*/
-  display: block;
 }
 
 #factButton {
@@ -188,7 +185,7 @@ li a:hover {
   font-size: 1.3em;
   padding: 15px;
   background-color: lightskyblue;
-  font-family: fantasy;
+  font-family: sans-serif;
   border-radius: 12%;
   margin-top: 5px;
   margin-bottom: 5px;
