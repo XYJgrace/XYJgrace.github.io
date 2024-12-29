@@ -46,14 +46,32 @@ var factList = [
     factButton1.addEventListener("click", fact1.innerHTML = factList[1]);
   }
 
+  var fact2 = document.getElementById("fact2");
+  var factButton2 = document.getElementById("factButton2");  
   if (factButton2) {
     factButton2.addEventListener("click", fact2.innerHTML = factList[2]);
   }
 
+  var fact3 = document.getElementById("fact3");
+  var factButton3 = document.getElementById("factButton3");  
   if (factButton3) {
     factButton3.addEventListener("click", fact3.innerHTML = factList[3]);
   }
 
-  if (factButton1) {
-    factButton1.addEventListener("click", fact1.innerHTML = factList[1]);
+  var fact4 = document.getElementById("fact4");
+  var factButton4 = document.getElementById("factButton4");  
+  if (factButton4) {
+    factButton4.addEventListener("click", fact4.innerHTML = factList[4]);
+  }
+
+  var fact5 = document.getElementById("fact5");
+  var factButton5 = document.getElementById("factButton5");  
+  if (factButton5) {
+    factButton5.addEventListener("click", fact5.innerHTML = factList[5]);
+  }
+
+  var fact6 = document.getElementById("fact6");
+  var factButton6 = document.getElementById("factButton6");  
+  if (factButton6) {
+    factButton6.addEventListener("click", fact6.innerHTML = factList[6]);
   }
