@@ -16,7 +16,7 @@ main {
 }
 
 /* making it stick pls */
-div.topheader {
+.topheader {
   position: sticky;
   top: 0;
 }
