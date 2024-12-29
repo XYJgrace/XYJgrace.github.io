@@ -17,21 +17,29 @@ main {
 
 header {
   background-image: url("assets/pic.jpg");
+  opacity: 0.5;
   background-size: cover;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  padding: 10px 16px;
 }
 
 /* STYLE TEXT */
 h1 {
-  color: rgb(163, 113, 192);
+  color: rgb(25, 1, 39);
   font-size: 3em;
   font-style: initial;
-  font-family: amatic sc;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   padding:1.5em;
+  text-shadow: 1px 1px purple;
 }
 
 h2 {
-  color: #ff9999;
-  font-family: fantasy;
+  color: #391c1c;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -42,9 +50,8 @@ h3 {
   background-color: lavender;
   margin-top: 1em;
   margin-bottom: 1em;
-  font-family: cursive;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
-  text-shadow: 1px 1px purple;
 }
 
 h4 {
@@ -53,7 +60,7 @@ h4 {
 
 p {
   font-size: 18px;
-  font-family: fantasy;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 1em;
   background-color: lavenderblush;
 }
@@ -61,12 +68,11 @@ p {
 .para {
   border: 3px solid rgb(253, 196, 215);
   margin-bottom: 1em;
-
 }
 
 li {
   font-size: 24px;
-  font-family: cursive
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 /* STYLE IMAGES */
@@ -155,7 +161,7 @@ li a:hover {
 
 }
 .logo {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   border-radius: 15%;
 }
