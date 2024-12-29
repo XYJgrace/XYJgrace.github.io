@@ -156,41 +156,39 @@ li a:hover {
   background-color: darksalmon
 }
 
-/* STYLE PLATFORM */
-.platform {
-	display:inline-block;
-	position:relative;
-	margin:2px auto;
-	height:200px;
-	width:300px;
-	cursor:pointer;
-	background:rgba(25,25,25,0.95);
-	-webkit-transition:height 0.5s;
-	transition:height 0.5s;
-}
-.platformImage {
-	top:2px;
-	position:relative;
-	height:150px;
-	width:296px;
-	margin:0px 2px;
-	background:whitesmoke;
-}
-.platformDescription {
-	top:0px;
-	position:absolute;
-	margin:5px 10px;
-	opacity:0;
-	cursor:pointer;
-	-webkit-transition:opacity 0.5s;
-	transition:opacity 0.5s;
+/* STYLE BUTTON */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
-.platform:hover {
-	height:240px;
-	background:rgba(25,25,25,1);
+.flex-item {
+  flex-basis: 100%;
+  margin: 1%;
 }
 
+.buttonBox {
+  background-color: bisque;
+  border-radius: 10%;
+  padding: 5em;
+}
+
+#factButton {
+  color: darkblue;
+  background-color: lightskyblue;
+  border-radius: 12%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#factButton:hover {
+  background-color: #981b1b;
+}
+
+#fact {
+  background-color: lightskyblue;
+}
 
 /*Footer*/
 .footer {
