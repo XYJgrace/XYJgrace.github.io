@@ -175,9 +175,14 @@ li a:hover {
 }
 
 #buttonPic {
-  max-width: 50%;
-  border-radius: 90%;
-  border: 5px solid palevioletred;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+  max-width: 90%;
+  border-radius: 7%;
+  border: 5px solid goldenrod;
 }
 
 #factButton {
@@ -185,7 +190,6 @@ li a:hover {
   font-size: 1.3em;
   padding: 15px;
   background-color: lightskyblue;
-  font-family: sans-serif;
   border-radius: 12%;
   margin-top: 5px;
   margin-bottom: 5px;
