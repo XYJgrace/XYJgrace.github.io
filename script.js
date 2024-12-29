@@ -2,8 +2,9 @@
 
 /* front page project buttons */
 
+/*
 var factList = [
-    "Actuator and servo testing.", /*0*/
+    "Actuator and servo testing.", 
         
     "Software skills used include C, Python, MATLAB, Fusion 360.",
   ];
@@ -22,4 +23,35 @@ var factList = [
     if(count == factList.length) {
       count=0;
     }
+  }*/
+
+  var factList = [
+    "As part of UCSD SEDS. Performed actuator and servo testing, CAD modeling; Software skills used include C, Python, MATLAB, Fusion 360.", 
+          
+    "Design and built a functioning robot.",
+
+    "Description in progress.",
+
+    "Description in progress.",
+
+    "Description in progress.",
+
+    "Description in progress.",
+
+  ];
+  
+  if (factButton1) {
+    factButton1.addEventListener("click", fact1.innerHTML = factList[1]);
+  }
+
+  if (factButton2) {
+    factButton2.addEventListener("click", fact2.innerHTML = factList[2]);
+  }
+
+  if (factButton3) {
+    factButton3.addEventListener("click", fact3.innerHTML = factList[3]);
+  }
+
+  if (factButton1) {
+    factButton1.addEventListener("click", fact1.innerHTML = factList[1]);
   }
