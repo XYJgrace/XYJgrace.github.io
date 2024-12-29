@@ -15,16 +15,26 @@ main {
   margin-left: 15%;
 }
 
+header {
+  background-image: url("assets/pic.jpg");
+  background-size: cover;
+}
+
 .header {
+  position: sticky;
   top: 0;
   padding: 10px 16px;
-  padding-bottom: 10em;
+  padding-bottom: 1em;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 0px;
+  padding-right:0px;
 }
 
 
 /* STYLE TEXT */
 h1 {
-  color: rgb(25, 1, 39);
+  color: rgb(0, 0, 0);
   font-size: 3em;
   font-style: initial;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -142,6 +152,42 @@ li a {
 li a:hover {
   background-color: darksalmon
 }
+
+/* STYLE PLATFORM */
+.platform {
+	display:inline-block;
+	position:relative;
+	margin:2px auto;
+	height:200px;
+	width:300px;
+	cursor:pointer;
+	background:rgba(25,25,25,0.95);
+	-webkit-transition:height 0.5s;
+	transition:height 0.5s;
+}
+.platformImage {
+	top:2px;
+	position:relative;
+	height:150px;
+	width:296px;
+	margin:0px 2px;
+	background:whitesmoke;
+}
+.platformDescription {
+	top:0px;
+	position:absolute;
+	margin:5px 10px;
+	opacity:0;
+	cursor:pointer;
+	-webkit-transition:opacity 0.5s;
+	transition:opacity 0.5s;
+}
+
+.platform:hover {
+	height:240px;
+	background:rgba(25,25,25,1);
+}
+
 
 /*Footer*/
 .footer {
