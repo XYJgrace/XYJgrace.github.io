@@ -16,15 +16,10 @@ main {
 }
 
 header {
-  background-image: url("assets/pic.jpg");
-  opacity: 0.5;
-  background-size: cover;
-}
-
-.navbar {
   position: sticky;
   top: 0;
   padding: 10px 16px;
+  padding-bottom: 10em;
 }
 
 /* STYLE TEXT */
@@ -50,7 +45,7 @@ h3 {
   background-color: lavender;
   margin-top: 1em;
   margin-bottom: 1em;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 30px;
 }
 
@@ -72,7 +67,7 @@ p {
 
 li {
   font-size: 24px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: cursive;
 }
 
 /* STYLE IMAGES */
@@ -127,7 +122,7 @@ li {
 /* STYLE NAV BAR */
 ul {
   list-style-type: none;
-  background-color:blanchedalmond;
+  background-color:rgb(241, 216, 177);
   overflow: hidden;
   padding: 1em;
   margin-bottom: 1em;
