@@ -15,12 +15,12 @@ main {
   margin-left: 15%;
 }
 
-header {
-  position: sticky;
+.header {
   top: 0;
   padding: 10px 16px;
   padding-bottom: 10em;
 }
+
 
 /* STYLE TEXT */
 h1 {
