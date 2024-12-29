@@ -198,7 +198,7 @@ li a:hover {
   background-color: rgb(139, 0, 113);
 }
 
-#fact {
+.factDisplay {
   background-color: none;
   font-family: sans-serif;
 }
