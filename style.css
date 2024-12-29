@@ -15,7 +15,7 @@ main {
   margin-left: 15%;
 }
 
-.header {
+header {
   position: sticky;
   /*top: 0;*/
   padding: 10px 16px;
