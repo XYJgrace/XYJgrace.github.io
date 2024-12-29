@@ -40,6 +40,8 @@ var factList = [
 
   ];
   
+  var fact1 = document.getElementById("fact1");
+  var factButton1 = document.getElementById("factButton1");
   if (factButton1) {
     factButton1.addEventListener("click", fact1.innerHTML = factList[1]);
   }
