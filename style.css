@@ -15,9 +15,12 @@ main {
   margin-left: 15%;
 }
 
-header {
+.topheader {
   position: sticky;
-  /*top: 0;*/
+  top: 0;
+}
+
+header{
   padding: 10px 16px;
   padding-bottom: 1em;
   margin-left: 0%;
@@ -28,6 +31,7 @@ header {
   background-image: url("assets/pic.jpg");
   background-size: cover;
 }
+
 
 
 /* STYLE TEXT */
