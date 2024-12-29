@@ -15,7 +15,8 @@ main {
   margin-left: 15%;
 }
 
-.topheader {
+/* making it stick pls */
+div.topheader {
   position: sticky;
   top: 0;
 }
