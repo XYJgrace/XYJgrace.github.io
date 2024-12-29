@@ -184,16 +184,6 @@ li a:hover {
   border: 5px solid goldenrod;
 }
 
-#factButton {
-  color: darkblue;
-  font-size: 1.3em;
-  padding: 15px;
-  background-color: lightskyblue;
-  border-radius: 12%;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
 .buttonStyle {
   color: slateblue;
   font-size: 1.3em;
@@ -205,7 +195,7 @@ li a:hover {
 }
 
 
-#factButton:hover {
+.buttonStyle:hover {
   background-color: rgb(139, 0, 113);
 }
 
