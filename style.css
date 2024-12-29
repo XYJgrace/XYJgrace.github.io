@@ -174,12 +174,24 @@ li a:hover {
   padding: 5em;
 }
 
+#buttonPic {
+  max-width: 50%;
+  border-radius: 90%;
+  border: 5px solid palevioletred;
+
+  /*centering the image*/
+  display: block;
+}
+
 #factButton {
   color: darkblue;
+  font-size: 1.3em;
+  padding: 15px;
   background-color: lightskyblue;
+  font-family: fantasy;
   border-radius: 12%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #factButton:hover {
@@ -187,7 +199,8 @@ li a:hover {
 }
 
 #fact {
-  background-color: lightskyblue;
+  background-color: none;
+  font-family: sans-serif;
 }
 
 /*Footer*/
