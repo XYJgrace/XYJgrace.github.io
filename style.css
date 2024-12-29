@@ -103,6 +103,11 @@ li {
   margin-right:5%;
 }
 
+.goldfish:hover {
+  border-radius: 30%;
+  border: 6px solid palevioletred;
+}
+
 .summary {
   position:flex;
   right: 0px;

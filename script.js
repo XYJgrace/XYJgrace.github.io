@@ -27,35 +27,39 @@ var factList = [
 
 // Define fact lists for each button
 var factLists = [
-  [
-    "Fact 1 for Button 1",
-    "Fact 2 for Button 1",
-    "Fact 3 for Button 1"
+  [//SEDS
+    "Controls Engineer on Liquid Bi-propellant rocket Riptide, as part of UCSD SEDS",
+    "Finalized linear actuator design for use in positioning the engine within a gimbal system and 3D printed miniature model pieces for testing",
+    "Tested actuator and servo motor using C code and Arduino",
+    "."
   ],
-  [
-    "Fact 1 for Button 2",
-    "Fact 2 for Button 2",
-    "Fact 3 for Button 2"
+  [//GANK
+    "Academic project in MAE 3: building a robot for competition",
+    "Designed & built a fully functioning robot with four powered components",
+    "Used Fusion 360 for CAD design, and drill press/3D printer/laser cutter/other shop tools for manufacturing",
+    "."
   ],
-  [
-    "Fact 1 for Button 3",
-    "Fact 2 for Button 3",
-    "Fact 3 for Button 3"
+  [//Obstacle
+    "Final research project for MAE 8 course at UC San Diego",
+    "Performed obstacle avoidance and path planning using MATLAB's Robotics System Toolbox and Navigation Toolbox, then evaluated model performance in both cuboid meshes and Simulation Description Format (SDF)",
+    "."
   ],
-  [
-    "Fact 1 for Button 4",
-    "Fact 2 for Button 4",
-    "Fact 3 for Button 4"
+  [//AI Venture
+    "Internship at AI Venture",
+    "Implemented Python-based algorithms to develop AI chatbot for education and developed a responsive company website w/ HTML, CSS, and Javascript for product integration",
+    "Presented product ideas and designed company logo (image shown above) with Adobe Photoshop",
+    "."
   ],
-  [
-    "Fact 1 for Button 5",
-    "Fact 2 for Button 5",
-    "Fact 3 for Button 5"
+  [//Frontend
+    "Extensive frontend web experience, such as the current website you're on",
+    "Designed website for personal and professional use, including the website for nonprofit Art4Neuroscience and startup AI Venture",
+    "Proficient in HTML, CSS, Javascript",
+    "."
   ],
-  [
-    "Fact 1 for Button 6",
-    "Fact 2 for Button 6",
-    "Fact 3 for Button 6"
+  [//JEI
+    "Independent research on machine learning models and their effectiveness against AI art",
+    "Publsihed on Journal of Emerging Investigators (JEI)",
+    "."
   ]
 ];
 
