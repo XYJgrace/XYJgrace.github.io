@@ -125,15 +125,9 @@ li {
   margin-bottom: 5%;
 }
 
-#illustrationcolor {
+.illustration {
   border-radius: 30%;
   border: 3px dashed #ff9999
-}
-
-#illustrationblack {
-  border-radius: 30%;
-  border: 3px dashed #ff9999
-
 }
 
 /* STYLE NAV BAR */
