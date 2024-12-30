@@ -125,9 +125,10 @@ li {
   margin-bottom: 5%;
 }
 
-.illustration {
+.Illustration {
   border-radius: 30%;
-  border: 3px dashed #ff9999
+  border: 3px solid #ff9999;
+  width: 300px;
 }
 
 /* STYLE NAV BAR */
