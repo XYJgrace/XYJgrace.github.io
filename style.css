@@ -180,8 +180,8 @@ li a:hover {
 
 #buttonPic {
   display: block;
-  height: 100px;
-  width: auto;
+  max-width: 200px;
+  height: auto;
   object-fit: cover;
   margin-left: auto;
   margin-right: auto;
