@@ -9,14 +9,15 @@ var factLists = [
     "."
   ],
   [//GANK
-    "Academic project in MAE 3: building a robot for competition",
+    "Academic project: building a robot for competition",
     "Designed & built a fully functioning robot with four powered components",
     "Used Fusion 360 for CAD design, and drill press/3D printer/laser cutter/other shop tools for manufacturing",
     "."
   ],
   [//Obstacle
-    "Final research project for MAE 8 course at UC San Diego",
-    "Performed obstacle avoidance and path planning using MATLAB's Robotics System Toolbox and Navigation Toolbox, then evaluated model performance in both cuboid meshes and Simulation Description Format (SDF)",
+    "MURO @ UCSD: Implementing robust Model Predictive Control (MPC) algorithms for obstacle avoidance",
+    "Conducting physical experiments using OptiTrack and Turtlebots using ROS2",
+    "Academic project: Performed obstacle avoidance and path planning using MATLAB, then evaluated model performance in both cuboid meshes and Simulation Description Format (SDF)",
     "."
   ],
   [//AI Venture
@@ -32,7 +33,7 @@ var factLists = [
     "."
   ],
   [//JEI
-    "Independent research on machine learning models and their effectiveness against AI art",
+    "Independent research on machine learning models and their effectiveness on identifying AI art",
     "Publsihed on Journal of Emerging Investigators (JEI)",
     "."
   ]
